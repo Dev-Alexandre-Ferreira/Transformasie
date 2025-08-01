@@ -1,0 +1,225 @@
+
+/* Estilização do corpo da página */
+.tfParaSuaEmpresaTituloContainer {
+  margin: 0 auto;
+  padding: 100px 0px 0px 0px;
+  width: 100%;
+  background-color: #083b38;
+}
+
+.tfParaSuaEmpresaTituloConteudo {
+  margin: 0 auto;
+  padding: 100px 0px 100px 0px;
+  max-width: 1200px;
+  align-content: center;
+}
+
+.tfParaSuaEmpresaTituloConteudo h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: initial;
+}
+
+.tfParaSuaEmpresaContainer {
+  margin: 0 auto;
+  padding: 50px 0px 50px 0px;
+  max-width: 1200px;
+}
+
+.tfParaSuaEmpresaConteudo {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.tfParaSuaEmpresaTitulo h1 {
+  color: #7f1d1d;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.tfParaSuaEmpresaServicosConteudo {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.tfParaSuaEmpresaServicoEstilo1Container {
+  margin: 0px;
+  padding: 50px;
+  max-width: 1200px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tfParaSuaEmpresaServicoEstilo1Container h2 {
+  margin: 0 auto;
+  padding: 0px 0px 60px 0px;
+  color: #d65c57;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tfParaSuaEmpresaServicoEstilo1Conteudo {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.tfParaSuaEmpresaServicoEstilo1Esq {
+  width: 500px;
+}
+
+.tfParaSuaEmpresaServicoEstilo1Esq h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #083b38;
+  margin-bottom: 20px;
+}
+
+.tfParaSuaEmpresaServicoEstilo1Esq p {
+  font-size: 22px;
+  color: #55221a;
+  margin-bottom: 40px;
+}
+
+.tfParaSuaEmpresaServicoEstilo1Dir {
+  max-width: 400px;
+  max-height: 400px;
+  justify-items: end;
+}
+
+.tfParaSuaEmpresaServicoEstilo1Dir img {
+  box-sizing: border-box;
+}
+
+.tfServicosButton {
+  padding: 20px 18px;
+  background-color: #f6801d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Estilo Dois */
+.tfParaSuaEmpresaServicoEstilo2Container {
+  margin: 0px;
+  padding: 50px;
+  max-width: 1200px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tfParaSuaEmpresaServicoEstilo2Container h2 {
+  margin: 0 auto;
+  padding: 0px 0px 60px 0px;
+  color: #d65c57;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tfParaSuaEmpresaServicoEstilo2Conteudo {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.tfParaSuaEmpresaServicoEstilo2Dir {
+  width: 500px;
+}
+
+.tfParaSuaEmpresaServicoEstilo2Dir h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #083b38;
+  margin-bottom: 20px;
+}
+
+.tfParaSuaEmpresaServicoEstilo2Dir p {
+  font-size: 22px;
+  color: #55221a;
+  margin-bottom: 40px;
+}
+
+.tfParaSuaEmpresaServicoEstilo2Esq {
+  max-width: 400px;
+  max-height: 400px;
+  justify-items: end;
+}
+
+.tfParaSuaEmpresaServicoEstilo2Esq img {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1100px) {
+  .tfParaSuaEmpresaServicoEstilo1Conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .tfParaSuaEmpresaServicosContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .tfParaSuaEmpresaServicoEstilo1Dir {
+    grid-row: 1;
+  }
+
+  .tfParaSuaEmpresaServicoEstilo1Esq {
+    text-align: center;
+  }
+
+  .tfParaSuaEmpresaServicosConteudo {
+    justify-items: center;
+  }
+
+  .tfParaSuaEmpresaServicoEstilo2Conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .tfParaSuaEmpresaServicoEstilo2Esq {
+    grid-row: 1;
+  }
+
+  .tfParaSuaEmpresaServicoEstilo2Dir {
+    text-align: center;
+  }
+
+  .tfParaSuaEmpresaServicoEstilo1Container {
+    margin: 50px;
+    width: 100%;
+  }
+  .tfParaSuaEmpresaServicoEstilo2Container {
+    width: 100%;
+    margin: 100px;
+  }
+}

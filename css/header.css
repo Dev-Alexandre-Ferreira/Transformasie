@@ -1,0 +1,132 @@
+
+/* Estilo da Header */
+header {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.tfHeaderContainer {
+  margin: 0 auto;
+  padding: 10px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tfHeaderContainer .tfLogoHeader {
+  margin: 0;
+  padding: 0;
+  width: 160px;
+}
+
+.tfHeaderMenu {
+  justify-content: center;
+  display: flex;
+}
+
+.tfMenuConteudo {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.tfMenuConteudo a.active {
+  color: #7f1d1d;
+  font-weight: bold;
+  border-bottom: 2px solid #f6801d;
+}
+
+.tfMenuConteudo li a {
+  text-decoration: none;
+  color: #3c1711;
+}
+
+.tfHeaderBotao {
+  text-decoration: none;
+  color: #fff;
+  background-color: #d65c57;
+  font-weight: bold;
+  padding: 12px 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.tfHeaderBotao:active {
+  box-shadow: inset 0px 0px 6px 1px #3c1711;
+}
+
+.tfMenuToggle {
+  display: none;
+  font-size: 50px;
+  background: none;
+  border: none;
+  color: #3c1711;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .tfHeaderContainer {
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 800px) {
+  /* Esconde o botão proposta no mobile */
+  .tfHeaderBotao {
+    display: none;
+  }
+
+  .tfHeaderContainer {
+    justify-content: space-between;
+  }
+
+  .tfMenuToggle {
+    display: block;
+  }
+
+  .tfHeaderMenu {
+    display: none;
+    position: absolute;
+    margin-top: 30px;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .tfHeaderMenu.active {
+    display: block;
+  }
+
+  .tfMenuConteudo {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .tfMenuConteudo li {
+    padding: 15px 10px;
+  }
+
+  .tfMenuConteudo li a {
+    font-size: 18px;
+  }
+}
+

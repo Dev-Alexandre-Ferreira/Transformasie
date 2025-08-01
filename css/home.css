@@ -1,0 +1,552 @@
+
+/* Estilização do conteúdo do corpo da página */
+.tfInicioContainer {
+  margin: 0 auto;
+  padding: 150px 0px 75px 0px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tfInicioConteudo {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.tfInicioConteudoEsq {
+  margin: 0px;
+  align-content: center;
+  padding: 0px;
+  max-width: 560px;
+}
+
+.tfInicioConteudoEsq h1 {
+  font-size: 78px;
+  color: #7f1d1d;
+}
+
+.tfInicioConteudoEsq .tfInicioP1 {
+  font-size: 24px;
+  margin-top: 40px;
+  color: #55221a;
+}
+
+.tfInicioConteudoEsq .tfInicioP2 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #55221a;
+}
+
+.tfInicioBotao {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f6801d;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.tfInicioConteudoDir img {
+  width: 500px;
+}
+
+.tfInicioNossosServicosbc {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff;
+}
+
+.tfInicioNossosServicos {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.tfNossosServicosDecoracao {
+  margin: 0px;
+  padding: 60px 40px;
+  position: relative;
+}
+
+.borda {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border: 5px solid #f6801d;
+}
+
+.tfNossosServicosDecTop {
+  top: 0px;
+  left: 0px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.tfNossosServicosDecBottom {
+  bottom: 0px;
+  right: 0px;
+  border-top: none;
+  border-left: none;
+}
+
+.tfNossosServicosConteudo {
+  max-width: 800px;
+  justify-self: center;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tfNossosServicosConteudo h2 {
+  font-size: 50px;
+  color: #7f1d1d;
+  font-weight: initial;
+}
+
+.tfNossosServicosConteudo p.tfInicioP3 {
+  margin-top: 20px;
+  font-size: 26px;
+  color: #55221a;
+}
+
+.tfNossosServicosCards {
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 0px;
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  max-width: 1200px;
+}
+
+.tfLinhaCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.card span {
+  max-width: 10ch;
+  left: 30px;
+  position: absolute;
+  bottom: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tfOferContainer {
+  margin: 0 auto;
+  padding: 100px 0px;
+  background-color: #083b38;
+  width: 100%;
+}
+
+.tfOferConteudo {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tfOferConteudo h2 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.tfOferCards {
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 0px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.tfOferCard {
+  background-color: #fff;
+  padding: 50px 30px 50px 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.tfOferCard p {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #55221a;
+}
+
+.tfOferCard img {
+  width: 180px;
+}
+
+.tfComeceSuaJornadaContainer {
+  margin: 0 auto;
+  padding: 100px 0px;
+  max-width: 100%;
+  background-color: #fff;
+}
+
+.tfComeceSuaJornadaConteudo {
+  margin: 0 auto;
+  padding: 0px;
+  justify-items: center;
+}
+
+.tfComeceSuaJornadaConteudo h2 {
+  font-size: 50px;
+  color: #7f1d1d;
+  font-weight: initial;
+}
+
+.tfChamadaPropostaContainerbc {
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+
+.tfChamadaPropostaContainer {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1200px;
+  min-height: 400px;
+  width: 100%;
+  background-color: #f6801d;
+}
+
+.tfChamadaPropostaConteudo {
+  margin: 0 auto;
+  padding: 50px;
+  max-width: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.tfChamadaPropostaConteudo h2 {
+  font-size: 40px;
+}
+
+.tfChamadaPropostaConteudo p {
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.tfChamadaPropostaConteudo a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #7f1d1d;
+  font-weight: bold;
+  width: 100px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.tfChamadaPropostaImagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1100px) {
+  .tfInicioConteudoDir img {
+    width: 350px;
+  }
+
+  .tfInicioConteudoEsq h1 {
+    font-size: 3rem;
+  }
+
+  .tfInicioConteudoEsq .tfInicioP1 {
+    font-size: 18px;
+    max-width: 35ch;
+  }
+
+  .tfInicioConteudoEsq .tfInicioP2 {
+    font-size: 14px;
+    max-width: 40ch;
+  }
+
+  .tfInicioConteudoEsq {
+    padding-left: 60px;
+  }
+
+  .tfInicioConteudo {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .tfOferCard {
+    display: grid;
+    justify-items: center;
+    padding: 35px 0px 35px 0px;
+  }
+
+  .tfOferCard p {
+    font-size: 16px;
+    padding: 30px 10px 30px 10px;
+    margin-top: 20px;
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  .tfOferCardFoto {
+    width: 200px;
+    display: grid;
+  }
+
+  .tfOferCardFoto img {
+    justify-self: center;
+  }
+
+  .tfOferCards {
+    gap: 15px;
+  }
+  .tfChamadaPropostaConteudo p {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .tfChamadaPropostaConteudo h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tfInicioConteudo {
+    grid-template-columns: 1fr;
+    align-self: center;
+  }
+
+  .tfInicioContainer {
+    justify-content: left;
+    background: url('../img/mensagem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .tfInicioContainer::before {
+    content: '';
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+  }
+
+  .tfInicioConteudoDir {
+    display: none;
+  }
+
+  .tfInicioConteudoEsq {
+    display: grid;
+    justify-self: center;
+    z-index: 1;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 0px;
+    padding: 20px;
+    justify-items: start;
+  }
+
+  .tfInicioConteudoEsq h1 {
+    color: #fff;
+  }
+
+  .tfInicioConteudoEsq a {
+    grid-column: 1;
+    padding: 15px 10px;
+    text-align: center;
+    grid-row: 5;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #083b38;
+  }
+
+  .tfInicioConteudoEsq .tfInicioP1 {
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  .tfInicioConteudoEsq .tfInicioP2 {
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  .tfInicioConteudoEsq p {
+    grid-column: 1;
+  }
+
+  .tfInicioConteudoEsq h1 {
+    font-size: 3rem;
+  }
+
+  .tfInicioConteudoEsq .tfInicioP1 {
+    font-size: 18px;
+    max-width: 35ch;
+  }
+
+  .tfInicioConteudoEsq .tfInicioP2 {
+    font-size: 14px;
+    max-width: 40ch;
+  }
+
+  .tfInicioConteudo {
+    justify-items: center;
+  }
+
+  .tfOferCard {
+    display: grid;
+    justify-items: center;
+    padding: 35px 0px 35px 0px;
+  }
+
+  .tfOferCard p {
+    font-size: 16px;
+    padding: 30px 10px 30px 10px;
+    margin-top: 20px;
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  .tfOferCardFoto {
+    width: 200px;
+    display: grid;
+  }
+
+  .tfOferCardFoto img {
+    justify-self: center;
+  }
+
+  .tfOferCards {
+    gap: 15px;
+  }
+  .tfChamadaPropostaConteudo p {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .tfChamadaPropostaConteudo h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 550px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: 2;
+    padding: 20px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #55221a;
+    margin-left: -10px;
+  }
+
+  .card span {
+    position: initial;
+    margin-left: 15px;
+    grid-column: 2;
+    justify-self: center;
+    padding: 0px;
+    align-self: center;
+    max-width: 10ch;
+    background-color: transparent;
+    font-size: 1.5rem;
+  }
+
+  .tfOferCard {
+    display: grid;
+  }
+
+  .tfComeceSuaJornadaConteudo h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .tfOferConteudo h2 {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+
+  .tfNossosServicosDecTop,
+  .tfNossosServicosDecBottom {
+    display: none;
+  }
+
+  .tfChamadaPropostaConteudo h2 {
+    font-size: 28px;
+  }
+
+  .tfChamadaPropostaConteudo {
+    padding: 30px;
+  }
+
+  .tfChamadaPropostaConteudo p {
+    font-size: 16px;
+    max-width: 50ch;
+  }
+
+  .tfChamadaPropostaContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .tfInicioConteudoEsq h1 {
+    font-size: 38px;
+  }
+  .card img {
+    display: none;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tfOferConteudo h2 {
+    margin-left: 20px;
+  }
+
+  .card span {
+    margin: 0px;
+  }
+}

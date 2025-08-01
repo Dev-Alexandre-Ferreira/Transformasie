@@ -1,0 +1,633 @@
+
+/* Estilização do corpo da página */
+.tfInicioSobreContainer {
+  margin: 150px auto 100px auto;
+  background-color: #083b38;
+  box-shadow: inset 0 -120px #f0f0f0, inset 0 100px #f0f0f0;
+}
+
+.tfInicioSobreConteudo {
+  margin: 0 auto;
+  max-width: 1200px;
+  align-items: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tfInicioSobreConteudo img {
+  width: 500px;
+  margin-left: 20px;
+}
+.tfInicioSobreConteudoDir {
+  align-self: center;
+  text-align: left;
+  max-width: 50ch;
+}
+
+.tfInicioSobreConteudoDir h1 {
+  color: #fff;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.tfInicioSobreConteudoDir span {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tfInicioSobreConteudoDir p + p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tfInicioSobreConteudoDir p {
+  color: #dfdfdf;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tfInicioSobreConteudoDir b {
+  color: #fff;
+}
+
+.tfIdentidadeOrganizacionalContainerbc {
+  background-color: #fff;
+  padding: 50px 0px 50px 0px;
+}
+
+.tfIdentidadeOrganizacionalContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.tfIdentidadeOrganizacionalConteudo {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1200px;
+  justify-items: center;
+}
+
+.tfIdentidadeOrganizacionalConteudo h2 {
+  color: #7f1d1d;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.tfIdentidadeOrganizacionalItens {
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 160px;
+}
+
+.tfIdentidadeOrganizacionalItem {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+
+.tfIdentidadeOrganizacionalItem img {
+  width: 160px;
+  margin-bottom: 30px;
+}
+
+.tfIdentidadeOrganizacionalItem h3 {
+  color: #f6801d;
+  margin-bottom: 20px;
+}
+
+.tfIdentidadeOrganizacionalItem p {
+  color: #55221a;
+}
+
+.tfSobreCEOContainerbc {
+  background-color: #fff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.tfSobreCEOContainer {
+  margin: 0 auto;
+  padding: 0px 0px 100px 0px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.tfSobreCEOConteudo {
+  margin: 0px;
+  padding: 0px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tfSobreCEOConteudo h2 {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #7f1d1d;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.tfSobreCEOConteudo h3 {
+  margin-bottom: 10px;
+  color: #f6801d;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.tfSobreCEOConteudo p {
+  margin-bottom: 10px;
+  color: #55221a;
+  font-size: 22px;
+}
+
+.tfSobreCEOBiografia {
+  margin: 0;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.tfSobreBiografiaContEsq {
+  max-width: 500px;
+}
+
+.tfSobreBiografiaContEsq h3 {
+  margin-bottom: 10px;
+}
+
+.tfSobreBiografiaContDir {
+  justify-self: center;
+  padding: 0px 15px;
+}
+
+.tfSobreBiografiaContDir img {
+  width: 500px;
+}
+
+.tfSobreBiografiaContEsq p {
+  margin-bottom: 30px;
+  color: #55221a;
+  font-size: 18px;
+}
+
+.tfSobreCEODestaques {
+  margin: 0px;
+  padding: 0px 0px 30px 0px;
+}
+
+.tfSobreCEOContatoItem {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  align-items: center;
+}
+
+.tfSobreCEOContatoItem i {
+  margin-right: 10px;
+  color: #55221a;
+  font-size: 30px;
+}
+
+.tfSobreCEOContatoItem a {
+  display: flex;
+  align-items: center;
+  color: #55221a;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.tfSobreCEOContatosLista {
+  justify-items: center;
+  padding-top: 20px;
+  display: grid;
+}
+
+.tfSobreContainerMensagem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 100px;
+  background-color: #55221a;
+}
+
+.tfSobreContainerMensagemImagem img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.tfSobreContainerMensagemTexto {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tfSobreContainerMensagemTexto p {
+  color: #fff;
+  line-height: 1.5;
+  max-width: 50ch;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: 900;
+  margin-left: 50px;
+  position: relative;
+  font-size: 1.3rem;
+}
+
+.tfSobreContainerMensagemTexto p::before {
+  content: '“';
+  color: #7f1d1d;
+  left: -30px;
+  top: -20px;
+  font-size: 3rem;
+  position: absolute;
+}
+
+.tfSobreCEOContatosLista {
+  grid-column: 2;
+}
+
+.tfSobreContainerMensagemTexto p::after {
+  content: '”';
+  color: #7f1d1d;
+  font-size: 3rem;
+  position: absolute;
+}
+
+.tfSobreContainerMensagemTexto h2 {
+  align-self: end;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #f0f0f0;
+}
+
+.tfSobreDestaqueContEsq p {
+  font-size: 18px;
+}
+
+.regula {
+  padding-left: 20px;
+}
+
+@media (max-width: 1100px) {
+  .tfInicioSobreConteudoDir h1 {
+    font-size: 34px;
+  }
+
+  .regula {
+    padding: 15px;
+  }
+
+  .tfInicioSobreConteudoDir p {
+    font-size: 15px;
+  }
+
+  .tfInicioSobreConteudoDir p + p {
+    margin: 10px 0px;
+  }
+
+  .tfSobreDestaqueContEsq {
+    display: inline-block;
+    max-width: 750px;
+  }
+
+  .tfInicioSobreConteudoDir span {
+    font-size: 15px;
+  }
+
+  .tfInicioSobreContainer {
+    box-shadow: inset 0 -30px #f0f0f0, inset 0 30px #f0f0f0;
+  }
+  .tfInicioSobreConteudoDir {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .tfInicioSobreConteudo img {
+    width: 450px;
+  }
+
+  .tfIdentidadeOrganizacionalItens {
+    gap: 80px;
+    margin-top: 80px;
+  }
+
+  .tfSobreBiografiaContDir img {
+    width: 450px;
+    display: inline-block;
+    align-self: center;
+  }
+
+  .tfSobreBiografiaContEsq {
+    max-width: 750px;
+    display: inline-block;
+  }
+
+  .regula {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tfSobreCEOBiografia {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tfSobreCEOContatosLista {
+    display: inline-block;
+    align-self: center;
+    justify-items: left;
+  }
+
+  .tfSobreBiografiaContDir {
+    justify-content: center;
+    grid-row: 1;
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tfSobreCEOBiografia {
+    gap: 10px;
+  }
+
+  .tfSobreContainerMensagem {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tfSobreContainerMensagemTexto {
+    justify-self: center;
+    height: 300px;
+    width: 800px;
+  }
+
+  .tfSobreContainerMensagemTexto p {
+    font-size: 18px;
+  }
+
+  .tfSobreContainerMensagemTexto h2 {
+    margin-top: 20px;
+  }
+
+  .tfSobreCEOContainer {
+    padding-bottom: 50px;
+  }
+
+  .tfSobreCEOContatosLista {
+    display: inline-block;
+  }
+
+  .tfSobreCEOContatosLista h3 {
+    font-size: 24px;
+  }
+
+  .tfSobreCEOContatosLista a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tfInicioSobreContainer {
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 100px 0px 100px 0px;
+    max-width: 100%;
+    background-color: #083b38;
+  }
+
+  .tfInicioSobreConteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tfInicioSobreConteudoDir {
+    box-shadow: none;
+    padding: 10px;
+  }
+
+  .tfInicioSobreConteudoDir h1 {
+    font-size: 26px;
+  }
+
+  .regula {
+    padding: 15px;
+  }
+
+  .tfInicioSobreConteudoDir p {
+    font-size: 14px;
+    max-width: 50ch;
+  }
+
+  .tfInicioSobreConteudoDir p + p {
+    margin: 10px 0px;
+  }
+
+  .tfSobreDestaqueContEsq p {
+    font-size: 14px;
+  }
+
+  .tfInicioSobreConteudoDir span {
+    font-size: 14px;
+    max-width: 50ch;
+  }
+
+  .tfInicioSobreContainer {
+    box-shadow: inset 0 -30px #f0f0f0, inset 0 30px #f0f0f0;
+  }
+
+  .tfInicioSobreConteudo img {
+    display: none;
+  }
+
+  .tfIdentidadeOrganizacionalItens {
+    gap: 26px;
+    margin-top: 60px;
+  }
+
+  .tfIdentidadeOrganizacionalItens img {
+    width: 120px;
+  }
+
+  .tfIdentidadeOrganizacionalItens h3 {
+    font-size: 18px;
+  }
+
+  .tfIdentidadeOrganizacionalItens p {
+    font-size: 14px;
+    width: 160px;
+  }
+
+  .tfSobreBiografiaContDir img {
+    width: 280px;
+    display: inline-block;
+    align-self: center;
+  }
+
+  .tfSobreBiografiaContEsq p {
+    font-size: 14px;
+  }
+
+  .regula {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tfSobreCEOConteudo h2 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .tfSobreCEOBiografia {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tfSobreCEOContatosLista {
+    display: inline-block;
+    align-self: center;
+    justify-items: left;
+  }
+
+  .tfSobreBiografiaContDir {
+    justify-content: center;
+    grid-row: 1;
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tfSobreCEOBiografia {
+    gap: 10px;
+  }
+
+  .tfSobreContainerMensagem {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tfSobreContainerMensagemTexto {
+    justify-self: center;
+    height: 300px;
+    width: 500px;
+  }
+
+  .tfSobreContainerMensagemTexto p {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  .tfSobreContainerMensagemTexto h2 {
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .tfSobreCEOContainer {
+    padding-bottom: 50px;
+  }
+
+  .tfSobreCEOContatosLista {
+    display: inline-block;
+  }
+
+  .tfSobreCEOContatosLista h3 {
+    font-size: 18px;
+  }
+
+  .tfSobreCEOContatosLista a {
+    font-size: 12px;
+  }
+
+  .tfInicioSobreContainer {
+    margin: 90px auto 20px auto;
+  }
+
+  .tfSobreCEOContainer {
+    margin-bottom: -50px;
+    margin-top: -50px;
+  }
+
+  .tfSobreContainerMensagem {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .tfIdentidadeOrganizacionalConteudo h2 {
+    font-size: 30px;
+  }
+  .tfIdentidadeOrganizacionalItens {
+    gap: 50px;
+    grid-template-columns: 300px;
+    justify-items: center;
+    display: grid;
+  }
+
+  .tfSobreBiografiaContDir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tfSobreCEOContatosLista {
+    justify-items: center;
+    align-items: center;
+  }
+
+  .tfSobreContainerMensagemTexto p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .tfSobreContainerMensagemTexto {
+    width: 300px;
+  }
+
+  .tfIdentidadeOrganizacionalConteudo {
+    padding: 50px 0px;
+  }
+
+  .tfIdentidadeOrganizacionalItem p {
+    font-size: 16px;
+    width: 250px;
+    display: block;
+  }
+
+  .tfInicioSobreConteudoDir p {
+    font-size: 16px;
+  }
+  .tfInicioSobreConteudoDir span {
+    font-size: 16px;
+  }
+  .tfInicioSobreConteudoDir h1 {
+    font-size: 30px;
+  }
+
+  .tfSobreCEOContatosLista a {
+    font-size: 14px;
+  }
+}
+

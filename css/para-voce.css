@@ -1,0 +1,203 @@
+
+/* Estilização do corpo da página */
+.tfCardServicosContainer {
+  margin: 0 auto;
+  padding: 0px 0px 50px 0px;
+  max-width: 1200px;
+}
+
+.tfCardServicosConteudo {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: #7f1d1d;
+  background-color: #083b38;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.tfCardServicosTitulo h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: initial;
+}
+
+.tfCardServicosPrincipalCard1 {
+  background-color: #fff;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tfCardServicosPrincipalCard1 h2 {
+  text-align: center;
+  color: #d65c57;
+  font-size: 40px;
+  padding-bottom: 60px;
+}
+
+.tfCardServicosControle {
+  display: grid;
+  margin: 0 auto;
+  gap: 100px;
+  max-width: 1000px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.tfCardServicosDados {
+  display: grid;
+  gap: 40px;
+  padding-left: 0px;
+}
+
+.tfCardServicosDados p {
+  font-size: 22px;
+  color: #55221a;
+}
+
+.tfCardServicosDados h3 {
+  color: #083b38;
+  font-size: 26px;
+}
+
+.tfCardServicosFoto1 {
+  justify-self: end;
+}
+
+.tfCardServicosDados a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f6801d;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 18px;
+  border-radius: 10px;
+  justify-self: start;
+}
+
+#fotoLeft {
+  justify-self: left;
+}
+
+@media (max-width: 1100px) {
+  .tfCardServicosControle {
+    grid-template-columns: 1fr;
+  }
+
+  .tfCardServicosTitulo h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .tfCardServicosDados {
+    justify-items: center;
+  }
+
+  .tfCardServicosDados a {
+    justify-self: center;
+  }
+
+  .tfCardServicosDados p {
+    width: 500px;
+    text-align: center;
+  }
+  .tfCardServicosFoto1 {
+    grid-row: 1;
+    justify-self: center;
+  }
+
+  .tfCardServicosControle {
+    gap: 20px;
+  }
+
+  .tfCardServicosPrincipalCard1 {
+    margin: 50px;
+  }
+
+  .tfCardServicosDados h3 {
+    font-size: 22px;
+  }
+  .tfCardServicosDados p {
+    font-size: 18px;
+  }
+
+  .tfCardServicosFoto1 img {
+    width: 300px;
+  }
+
+  .tfCardServicosControle {
+    grid-template-columns: 1fr;
+  }
+
+  .tfCardServicosControle {
+    justify-items: center;
+  }
+
+  .tfCardServicosControle a {
+    justify-self: center;
+  }
+
+  .tfCardServicosControle p {
+    width: 100%;
+    text-align: center;
+  }
+  #fotoLeft {
+    grid-row: 1;
+    justify-self: center;
+  }
+
+  .tfCardServicosControle {
+    gap: 20px;
+  }
+
+  .tfCardServicosPrincipalCard1 {
+    margin: 50px;
+  }
+
+  .tfCardServicosControle h3 {
+    font-size: 22px;
+  }
+  .tfCardServicosControle p {
+    font-size: 18px;
+  }
+
+  .tfCardServicosFoto1 img {
+    width: 300px;
+  }
+
+  .tfCardServicosControle h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .tfCardServicosFoto1 img {
+    width: 200px;
+  }
+
+  .tfCardServicosDados a {
+    font-size: 14px;
+  }
+
+  .tfCardServicosPrincipalCard1 h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .tfCardServicosFoto1 img {
+    width: 150px;
+  }
+
+  .tfCardServicosDados a {
+    font-size: 12px;
+  }
+
+  .tfCardServicosPrincipalCard1 h2 {
+    font-size: 30px;
+  }
+}

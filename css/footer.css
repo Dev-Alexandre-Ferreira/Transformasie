@@ -129,12 +129,10 @@ footer {
   .tfFooterLista {
     display: grid;
     text-align: center;
-    width: 250px;
     margin: none;
   }
 
   .tfFooterLista ul {
-    width: 200px;
     justify-content: center;
   }
 

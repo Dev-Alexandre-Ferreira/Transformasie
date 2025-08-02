@@ -1,4 +1,3 @@
-
 /* Estilização do corpo da página */
 .tfInicioSobreContainer {
   margin: 150px auto 100px auto;
@@ -581,7 +580,7 @@
   }
   .tfIdentidadeOrganizacionalItens {
     gap: 50px;
-    grid-template-columns: 300px;
+    grid-template-columns: 500px;
     justify-items: center;
     display: grid;
   }
@@ -604,6 +603,17 @@
 
   .tfSobreContainerMensagemTexto {
     width: 300px;
+  }
+
+  .tfIdentidadeOrganizacionalItem {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tfIdentidadeOrganizacionalItem img {
+    justify-self: center;
   }
 
   .tfIdentidadeOrganizacionalConteudo {
@@ -630,4 +640,3 @@
     font-size: 14px;
   }
 }
-

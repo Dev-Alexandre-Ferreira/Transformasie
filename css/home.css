@@ -1,4 +1,3 @@
-
 /* Estilização do conteúdo do corpo da página */
 .tfInicioContainer {
   margin: 0 auto;
@@ -477,6 +476,11 @@
     border-radius: 15px;
     background-color: #55221a;
     margin-left: -10px;
+  }
+
+  .tfInicioNossosServicosbc {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .card span {

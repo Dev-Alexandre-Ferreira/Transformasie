@@ -1,4 +1,3 @@
-
 /* Estilo da Footer */
 footer {
   margin: 0px;
@@ -111,9 +110,18 @@ footer {
     display: none;
   }
 
+  .tfFooterLista {
+    width: 400px;
+  }
+
+  .tfFooterLista ul {
+    justify-items: center;
+  }
+
   .tfFooterListas {
     display: flex;
     flex-direction: column;
+    align-self: center;
   }
 
   .tfFooterListaIcons i {
@@ -125,16 +133,8 @@ footer {
     justify-content: center;
   }
 
-  .tfFooterLista li a {
-    margin-left: -15px;
-  }
-
   .tfFooterListas {
     gap: 70px;
-  }
-
-  .tfFooterLista h3 {
-    margin-left: -10px;
   }
 
   .tfFooterLogoContainer {
@@ -142,6 +142,3 @@ footer {
     align-self: center;
   }
 }
-
-
-

@@ -577,6 +577,8 @@
 @media (max-width: 550px) {
   .tfIdentidadeOrganizacionalConteudo h2 {
     font-size: 30px;
+    width: 300px;
+    text-align: center;
   }
   .tfIdentidadeOrganizacionalItens {
     gap: 50px;
@@ -618,6 +620,7 @@
 
   .tfIdentidadeOrganizacionalConteudo {
     padding: 50px 0px;
+    margin: 0px auto;
   }
 
   .tfIdentidadeOrganizacionalItem p {

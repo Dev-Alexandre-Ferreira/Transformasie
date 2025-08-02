@@ -114,6 +114,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    text-align: center;
     gap: 20px;
   }
 
@@ -126,13 +127,19 @@ footer {
   }
 
   .tfFooterLista {
+    display: grid;
     text-align: center;
     width: 250px;
+    margin: none;
   }
 
   .tfFooterLista ul {
-    justify-items: center;
-    align-items: center;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .tfFooterLista a {
+    text-align: center;
   }
 
   .tfFooterConteudo {
@@ -140,5 +147,10 @@ footer {
     grid-template-columns: 1fr;
     justify-self: center;
     align-self: center;
+  }
+
+  .redimensao {
+    display: grid;
+    grid-column: 1fr 1fr;
   }
 }

@@ -112,8 +112,6 @@ footer {
 
   .tfFooterListas {
     grid-template-columns: 1fr;
-    justify-self: center;
-    align-self: center;
   }
 
   .tfFooterLogoContainer {
@@ -131,7 +129,7 @@ footer {
   .tfFooterConteudo {
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
+    justify-self: center;
+    align-self: center;
   }
 }

@@ -125,8 +125,13 @@ footer {
     margin-top: 30px;
   }
 
+  .tfFooterLista {
+    text-align: center;
+  }
+  
   .tfFooterLista ul {
     justify-items: center;
+    align-items: center;
   }
 
   .tfFooterConteudo {

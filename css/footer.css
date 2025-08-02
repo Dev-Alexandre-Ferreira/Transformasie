@@ -110,10 +110,6 @@ footer {
     display: none;
   }
 
-  .tfFooterLista {
-    width: 400px;
-  }
-
   .tfFooterLista ul {
     justify-items: center;
   }

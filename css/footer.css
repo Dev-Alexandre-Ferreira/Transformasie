@@ -127,6 +127,8 @@ footer {
   }
 
   .tfFooterConteudo {
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
   }

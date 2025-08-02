@@ -124,6 +124,7 @@ footer {
     align-self: center;
     justify-content: center;
     align-content: center;
+    text-align: center;
   }
 
   .tfFooterListaIcons i {

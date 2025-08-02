@@ -125,4 +125,9 @@ footer {
   .tfFooterLista ul {
     justify-items: center;
   }
+
+  .tfFooterConteudo {
+    justify-content: center;
+    align-content: center;
+  }
 }

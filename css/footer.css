@@ -111,44 +111,43 @@ footer {
   }
 
   .tfFooterListas {
-    display: grid;
+    display: grid; /* <- Faltava isso */
     grid-template-columns: 1fr;
     justify-items: center;
-    text-align: center;
     gap: 20px;
   }
 
   .tfFooterLogoContainer {
     display: block;
-  }
-
-  .tfFooterLista + .tfFooterLista {
-    margin-top: 30px;
+    text-align: center;
   }
 
   .tfFooterLista {
-    display: grid;
     text-align: center;
-    margin: none;
+  }
+
+  .tfFooterLista + .tfFooterLista {
+    margin-top: 20px;
   }
 
   .tfFooterLista ul {
-    justify-content: center;
+    padding: 0;
+    list-style: none;
   }
 
-  .tfFooterLista a {
-    text-align: center;
+  .tfFooterListaIcons {
+    justify-content: center;
   }
 
   .tfFooterConteudo {
     display: grid;
     grid-template-columns: 1fr;
-    justify-self: center;
-    align-self: center;
+    justify-items: center;
   }
 
-  .redimensao {
-    display: grid;
-    grid-column: 1fr 1fr;
+  .tfFooterDireitos {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 30px;
   }
 }

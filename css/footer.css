@@ -110,79 +110,19 @@ footer {
     display: none;
   }
 
-  .tfFooterLista {
-    padding: 0px;
-    width: 250px;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .tfFooterLista a {
-    width: 300px;
-  }
-
-  .tfFooterLista ul {
-    justify-items: center;
-  }
-
   .tfFooterListas {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-  }
-
-  .tfFooterListaIcons i {
-    font-size: 2.5rem;
-    padding: 10px;
-  }
-
-  .tfFooterListaIcons {
-    justify-content: center;
-  }
-
-  .tfFooterDireitos {
-    display: grid;
-    margin: 0px;
-    max-width: 80%;
-    align-self: center;
-  }
-
-  .tfFooterListas {
-    gap: 70px;
+    grid-template-columns: 1fr;
   }
 
   .tfFooterLogoContainer {
     display: block;
-    align-self: center;
+  }
+
+  .tfFooterLista + .tfFooterLista {
+    margin-top: 30px;
   }
 
   .tfFooterLista ul {
-    background-color: thistle;
-  }
-
-  .tfFooterLista {
-  }
-
-  .tfFooterLogoContainer {
-    width: 350px;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .tfFooterLogo {
-    width: 250px;
-  }
-
-  .tfFooterConteudo {
-    justify-content: center;
-    align-content: center;
-  }
-
-  .tfFooterLista li {
-    width: 300px;
+    justify-items: center;
   }
 }

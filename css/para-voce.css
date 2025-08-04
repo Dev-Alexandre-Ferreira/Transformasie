@@ -175,17 +175,33 @@
 
 @media (max-width: 550px) {
   .tfCardServicosFoto1 img {
-    width: 200px;
+    width: 100%;
+  }
+
+  .tfCardServicosPrincipalCard1 {
+    padding: 30px;
+    margin: 20px;
   }
 
   .tfCardServicosDados a {
-    font-size: 10px;
+    font-size: 15px !important;
+    padding: 20px 18px;
+    width: 200px;
     text-align: center;
-    display: inline-block;
+  }
+
+  .tfCardServicosDados p {
+    font-size: 14px;
+  }
+
+  .tfCardServicosTitulo h1 {
+    font-size: 25px;
+    max-width: 250px;
   }
 
   .tfCardServicosPrincipalCard1 h2 {
     font-size: 30px;
+    padding-bottom: 30px;
   }
 }
 

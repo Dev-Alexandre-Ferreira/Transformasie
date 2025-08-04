@@ -1,4 +1,3 @@
-
 const toggleButton = document.querySelector('.tfMenuToggle');
 const menu = document.querySelector('.tfHeaderMenu');
 
@@ -20,4 +19,3 @@ document.addEventListener('click', (event) => {
 window.addEventListener('scroll', () => {
   menu.classList.remove('active');
 });
-

@@ -81,25 +81,38 @@
                     </div>
                   </div>
                   <div class="tfFormularioPropostaCaixaDir">
-                    <form action="" method="post">
+                    <form id="formulario">
                       <div class="tfFormularioPropostaCaixaDirInputNome">
-                        <input type="text" id="nome" name="nome" required placeholder="Nome" />
+                        <input type="text" id="nome" name="Nome" required placeholder="Nome" />
                       </div>
                       <div class="tfFormularioPropostaCaixaDirInputContatos">
-                        <input type="email" id="email" name="email" required placeholder="E-mail" />
-                        <input type="tel" id="telefone" name="telefone" required placeholder="Telefone" />
+                        <input type="email" id="email" name="E-mail" required placeholder="E-mail" />
+                        <input type="tel" id="telefone" name="Telefone" required placeholder="Telefone" />
                       </div>
                       <div class="tfFormularioPropostaCaixaDirInputEndereco">
-                        <input type="text" id="estado" name="estado" required placeholder="Estado" />
-                        <input type="text" id="cidade" name="cidade" required placeholder="Cidade" />
+                        <input type="text" id="estado" name="Estado" required placeholder="Estado" />
+                        <input type="text" id="cidade" name="Cidade" required placeholder="Cidade" />
                       </div>
                       <div class="tfFormularioPropostaCaixaDirInputMensagem">
-                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Mensagem"></textarea>
+                        <textarea id="mensagem" name="Mensagem" rows="4" placeholder="Mensagem"></textarea>
                       </div>
+
+                      <input type="hidden" name="_captcha" value="false">
+                      <input type="hidden" name="_next" value="">
+                      <input type="hidden" name="_subject" value="Nova solicitação de proposta Transformasie">
+                      <input type="hidden" name="_template" value="table">
+                      <input type="hidden" name="_captcha" value="false">
+
                       <button type="submit" class="tfFormularioPropostaBotao">
                         Enviar
                       </button>
                     </form>
+                    <div class="modal" id="meuModal">
+                      <div class="modal-content">
+                        <h2>Sua solicitação foi enviada!</h2>
+                        <p>Você será redirecionado para a página inicial.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

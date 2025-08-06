@@ -25,3 +25,24 @@ form.addEventListener('submit', function (e) {
       alert('Erro ao enviar.');
     });
 });
+
+document.getElementById('formulario').addEventListener('submit', function (e) {
+  e.preventDefault(); // Impede envio tradicional
+
+  const form = e.target;
+  const formData = new FormData(form);
+
+  fetch('send.php', {
+    method: 'POST',
+    body: formData,
+  })
+    .then((response) => response.text())
+    .then((data) => {
+      alert('Formulário enviado com sucesso!');
+      window.location.href = '../../index.html'; // redireciona para a página inicial
+    })
+    .catch((error) => {
+      alert('Erro ao enviar o formulário.');
+      console.error(error);
+    });
+});

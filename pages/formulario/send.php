@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $cidade = $_POST['cidade'] ?? '';
   $mensagem = $_POST['mensagem'] ?? '';
 
-  $destinatario = "assitente.transformasie@gmail.com.br";
+  $destinatario = "designer.alexandre1@gmail.com"; // Altere para seu e-mail real
   $assunto = "Nova solicitação de orçamento via site";
   
   $corpo = "
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     echo "Mensagem enviada com sucesso!";
   } else {
     http_response_code(500);
-    echo "Erro ao enviar.";
+    echo "Erro ao enviar a mensagem.";
   }
 } else {
   http_response_code(403);

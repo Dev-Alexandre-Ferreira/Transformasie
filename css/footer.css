@@ -50,9 +50,23 @@ footer {
   box-sizing: border-box;
 }
 
+.tfAlinha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tfAlinha i {
+  font-size: 2rem;
+}
+
 @media (max-width: 1100px) {
   .tfFooterConteudo {
     padding: 0px 30px;
+  }
+
+  .tfAlinha i {
+    font-size: 1.5rem;
   }
 
   .tfFooterLista {
@@ -75,11 +89,19 @@ footer {
   .tfFooterLista li a {
     padding: 10px;
   }
+
+  .tfAlinha {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
   .tfFooterContainer {
     padding-top: 60px;
+  }
+
+  .tfAlinha {
+    justify-content: center;
   }
 
   .tfLogoFooter {

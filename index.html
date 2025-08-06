@@ -7,9 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="description" content="Capacitamos pessoas e empresas por meio de palestras, workshops e consultorias, unindo organização financeira e planejamento de vida. Com valores como ética, respeito, diversidade e paixão, promovemos a educação como caminho para uma sociedade mais consciente e justa.">
   <meta name="keywords" content="Transformasie, Educação Financeira, Finanças, Mentoria, Palestras" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdn.boxicons.com; font-src 'self' https://fonts.gstatic.com https://cdn.boxicons.com; script-src 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdn.boxicons.com; font-src 'self' https://fonts.gstatic.com https://cdn.boxicons.com; script-src 'self' ;">
   <link rel="stylesheet" href="css/geral.css">
   <link rel="shortcut icon" href="img/favIconVetor.png" type="image/x-icon" />
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
   <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
   <title>Transformasie</title>
 </head>
@@ -53,23 +54,33 @@
             <p class="tfInicioP3">Tudo que você precisa para gerar mais negócios</p>
             <div class="tfNossosServicosCards">
               <div class="tfLinhaCards">
-                <div class="card">
+
+
+                <div id="modal" class="modal">
+                  <div class="modal-content">
+                    <span id="fecharModal" class="fechar" ">&times;</span>
+                       <h2 id=" modalTitulo"></h2>
+                      <p id="modalTexto"></p>
+                  </div>
+                </div>
+
+                <div data-id="1" class="card card-servico">
                   <img src="img/homeCard1.jpg" alt="Card Assessoria Financeira">
                   <span>Assessoria Financeira</span>
                 </div>
-                <div class="card">
+                <div data-id="2" class="card card-servico">
                   <img src="img/homeCard2.jpg" alt="Card Palestras e Workshops">
                   <span>Palestras e Workshops</span>
                 </div>
-                <div class="card">
+                <div data-id="3" class="card card-servico">
                   <img src="img/homeCard3.jpg" alt="Card Mentoria Individual">
                   <span>Mentoria Individual</span>
                 </div>
-                <div class="card">
+                <div data-id="4" class="card card-servico">
                   <img src="img/homeCard4.jpg" alt="Card Preparação para Longevidade">
                   <span>Preparação para Longevidade</span>
                 </div>
-                <div class="card">
+                <div data-id="5" class="card card-servico">
                   <img src="img/homeCard6.jpg" alt="Card Mentoria em Grupo">
                   <span>Mentoria em Grupo</span>
                 </div>
@@ -123,7 +134,10 @@
           <img src="img/homeChamadaProposta.jpg" alt="Foto de Izabel">
         </div>
       </div>
+
+
     </section>
+
   </main>
   <footer>
     <div class="tfFooterContainer">
@@ -142,8 +156,8 @@
           </li>
           <li>
             <h3>Fale com a Gente</h3>
-            <a href="mailto:contato@transformasie.com.br">contato@transformasie.com.br</a>
-            <a href="https://api.whatsapp.com/send/?phone=5511993410871&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+55 (11) 99341-0871</a>
+            <a class="tfAlinha" href="mailto:contato@transformasie.com.br"> <i class="bx bxs-envelope"></i> contato@transformasie.com.br</a>
+            <a class="tfAlinha" href="https://api.whatsapp.com/send/?phone=5511993410871&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"> <i class="bxl bx-whatsapp"></i> +55 (11) 99341-0871</a>
           </li>
           <li>
             <h3>Nossas Redes</h3>

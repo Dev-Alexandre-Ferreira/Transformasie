@@ -359,6 +359,11 @@ form button:active {
     width: 250px;
   }
 
+  .tfFormularioPropostaCaixaConteudo {
+    padding: 60px;
+    width: 300px;
+  }
+
   .tfFormularioPropostaBotao {
     width: 250px;
   }

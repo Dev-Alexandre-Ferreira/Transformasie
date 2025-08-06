@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Capacitamos pessoas e empresas por meio de palestras, workshops e consultorias, unindo organização financeira e planejamento de vida. Com valores como ética, respeito, diversidade e paixão, promovemos a educação como caminho para uma sociedade mais consciente e justa." />
+  <meta name="keywords" content="Transformasie, Educação Financeira, Finanças, Mentoria, Palestras" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdn.boxicons.com; font-src 'self' https://fonts.gstatic.com https://cdn.boxicons.com; script-src 'self';" />
+  <meta name="author" content="Richard Cesar; Alexandre Ferreira">
+  <link rel="stylesheet" href="/formulario-proposta.css" />
+  <link rel="shortcut icon" href="../../img/favIconVetor.png" type="image/x-icon" />
+  <link href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css" rel="stylesheet" />
+  <title>Transformasie | Formulário de Proposta</title>
+</head>
+
+<body>
+  <header>
+    <div class="tfHeaderContainer">
+      <a href="../../index.html"><img src="../../img/logoHeaderSvg.svg" alt="Logo Transformasie" class="tfLogoHeader" /></a>
+      <nav class="tfHeaderMenu">
+        <ul class="tfMenuConteudo">
+          <li><a href="../../index.html">Início</a></li>
+          <li><a href="../sobre/index.html">Sobre</a></li>
+          <li><a href="../para-voce/index.html">Para Você</a></li>
+          <li><a href="../para-sua-empresa/index.html">Para Sua Empresa</a></li>
+        </ul>
+      </nav>
+      <a href="../formulario/index.html" class="tfHeaderBotao">Proposta</a>
+      <button id="btnClique" class="tfMenuToggle" aria-label="Abrir menu">
+        &#9776;
+      </button>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="tfFormularioPropostaTituloContainer">
+        <div class="tfFormularioPropostaTituloConteudo">
+          <h1>Formulário de Proposta</h1>
+        </div>
+      </div>
+
+      <div class="tfFormularioPropostaContainer">
+        <div class="tfFormularioPropostaConteudo">
+          <div class="tfFormularioPropostaAreaContainer">
+            <div class="tfFormularioPropostaAreaConteudo">
+              <h2>
+                Preencha o formulário com suas informações para receber sua
+                proposta.
+              </h2>
+              <div class="tfFormularioPropostaCaixa">
+                <div class="tfFormularioPropostaCaixaConteudo">
+                  <div class="tfFormularioPropostaCaixaEsq">
+                    <h3>Entre em contato</h3>
+                    <p>
+                      Para saber mais sobre a Transformasie, conversar sobre
+                      educação financeira ou entender como podemos ajudar você
+                      ou sua empresa a alcançar seus objetivos, entre em
+                      contato pelo número (11) 99341-0871 ou preencha o
+                      formulário. Em breve retornaremos!
+                    </p>
+
+                    <div class="tfLinhaHorizontal"></div>
+
+                    <div class="tfFormularioPropostaCaixaEsqContatos">
+                      <div class="tfFormularioPropostaCaixaContato">
+                        <i class="bx bxs-envelope"></i>
+                        <div>
+                          <span>E-mail</span>
+                          <a href="mailto:contato@transformasie.com.br">contato@transformasie.com.br</a>
+                        </div>
+                      </div>
+                      <div class="tfFormularioPropostaCaixaContato">
+                        <i class="bxl bx-whatsapp"></i>
+                        <div>
+                          <span>Telefone</span>
+                          <a href="https://api.whatsapp.com/send/?phone=5511993410871&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+55 (11) 99341-0871</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tfFormularioPropostaCaixaDir">
+                    <form id="formulario">
+                      <div class="tfFormularioPropostaCaixaDirInputNome">
+                        <input type="text" id="nome" name="Nome" required placeholder="Nome" />
+                      </div>
+                      <div class="tfFormularioPropostaCaixaDirInputContatos">
+                        <input type="email" id="email" name="E-mail" required placeholder="E-mail" />
+                        <input type="tel" id="telefone" name="Telefone" required placeholder="Telefone" />
+                      </div>
+                      <div class="tfFormularioPropostaCaixaDirInputEndereco">
+                        <input type="text" id="estado" name="Estado" required placeholder="Estado" />
+                        <input type="text" id="cidade" name="Cidade" required placeholder="Cidade" />
+                      </div>
+                      <div class="tfFormularioPropostaCaixaDirInputMensagem">
+                        <textarea id="mensagem" name="Mensagem" rows="4" placeholder="Mensagem"></textarea>
+                      </div>
+
+                      <input type="hidden" name="_captcha" value="false">
+                      <input type="hidden" name="_next" value="">
+                      <input type="hidden" name="_subject" value="Nova solicitação de proposta Transformasie">
+                      <input type="hidden" name="_template" value="table">
+                      <input type="hidden" name="_captcha" value="false">
+
+                      <button type="submit" class="tfFormularioPropostaBotao">
+                        Enviar
+                      </button>
+                    </form>
+                    <div class="modal" id="meuModal">
+                      <div class="modal-content">
+                        <h2>Sua solicitação foi enviada!</h2>
+                        <p>Você será redirecionado para a página inicial.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="meuModal">
+      <div class="modal-content">
+        <h2>Sua solicitação foi enviada!</h2>
+        <p>Você será redirecionado para a página inicial.</p>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <div class="tfFooterContainer">
+      <div class="tfFooterConteudo">
+        <ul class="tfFooterLista">
+          <li class="tfLogoFooter"><img src="../../img/logoTransformasieNegativa.png" alt=""></li>
+          <li class="tfSobre">
+            <h3>Sobre nos</h3>
+            <a href="../../index.html">Home</a>
+            <a href="../sobre/index.html">Sobre</a>
+          </li>
+          <li class="tfNossos">
+            <h3>Nossos Serviços</h3>
+            <a href="../para-voce/index.html">Para Você</a>
+            <a href="../para-sua-empresa/index.html">Para Sua Empresa</a>
+          </li>
+          <li>
+            <h3>Fale com a Gente</h3>
+            <a class="tfAlinha" href="mailto:contato@transformasie.com.br"> <i class="bx bxs-envelope"></i> contato@transformasie.com.br</a>
+            <a class="tfAlinha" href="https://api.whatsapp.com/send/?phone=5511993410871&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"> <i class="bxl bx-whatsapp"></i> +55 (11) 99341-0871</a>
+          </li>
+          <li>
+            <h3>Nossas Redes</h3>
+            <div class="tfFooterRedes">
+              <a href="https://www.linkedin.com/company/transformasie/" target="_blank" rel="noopener noreferrer"><i class="bxl bx-linkedin-square"></i></a>
+              <a href="https://www.instagram.com/transformasie.financas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><i class="bxl bx-instagram-alt"></i></a>
+              <a href="https://www.facebook.com/transformasieinteligenciafinanceira/" target="_blank" rel="noopener noreferrer"><i class="bxl bx-facebook-square"></i></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="tfFooterDireitos">
+        <p>© 2025 Transformasie. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="../../js/form.js"></script>
+</body>
+
+
+</html>

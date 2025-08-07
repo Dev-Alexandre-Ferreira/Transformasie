@@ -7,9 +7,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $cidade = $_POST['cidade'] ?? '';
   $mensagem = $_POST['mensagem'] ?? '';
 
-  $destinatario = "designer.alexandre1@gmail.com"; // Altere para seu e-mail real
+  $destinatario = "contato@transformasie.com.br"; // Seu e-mail real
   $assunto = "Nova solicitação de orçamento via site";
-  
+
   $corpo = "
     <strong>Nome:</strong> $nome<br>
     <strong>E-mail:</strong> $email<br>
@@ -19,10 +19,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <strong>Mensagem:</strong><br>$mensagem
   ";
 
-  $headers = "MIME-Version: 1.0" . "\r\n";
-  $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-  $headers .= "From: <$email>" . "\r\n";
 
+  $headers = "MIME-Version: 1.0\r\n";
+  $headers .= "Content-type: text/html; charset=UTF-8\r\n";
+  $headers .= "From: contato@transformasie.com.br\r\n"; // ou qualquer e-mail do seu domínio
+  $headers .= "Reply-To: $email\r\n"; // isso permite responder ao cliente corretamente
   if (mail($destinatario, $assunto, $corpo, $headers)) {
     http_response_code(200);
     echo "Mensagem enviada com sucesso!";
